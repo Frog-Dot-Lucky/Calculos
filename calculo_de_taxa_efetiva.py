@@ -3,4 +3,4 @@ Tempo = float(input("Digite o tempo (em meses): "))
 
 Taxa_Efetiva = ((1 + Taxa) ** Tempo - 1) * 100
 
-print(f"Taxa efetiva total: {Taxa_Efetiva}")
+print(f"Taxa efetiva total: {Taxa_Efetiva:.2f}%")
